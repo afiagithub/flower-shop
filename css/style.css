@@ -208,3 +208,23 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+.contact{
+    margin-top: 96px;
+    background: #111010;
+}
+
+.contact-details{
+    max-width: 470px;
+    padding: 96px 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.contact-details p{
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.contact-details .licence{
+    color: rgba(255, 255, 255, 0.40);
+}
