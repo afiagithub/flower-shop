@@ -10,7 +10,7 @@
 
 .banner-content {
     max-width: 531px;
-    margin: 148px 0px 110px 180px;
+    margin: 148px 0px 110px 150px;
 }
 
 .banner-content h1 {
@@ -41,15 +41,65 @@
     border: none;
 }
 
-.btn:hover{
+.btn:hover {
     background: transparent;
     border: 2px solid #E55473;
     color: #E55473;
     transition: 0.5s;
 }
 
-.banner-photo img{
+.banner-photo img {
     max-width: 100%;
     max-height: 600px;
     margin: 37.5px 95px 0px 65px;
+}
+
+.featured-section {
+    margin: 133px 0px;
+    text-align: center;
+}
+
+.feature-heading {
+    margin: 0px auto;
+    max-width: 445px;
+}
+
+.feature-heading h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.feature-flower {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.flower-item1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-item1 img {
+    padding: 82.5px 58px 0px 58px;
+}
+
+.flower-item2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-item2 img {
+    padding: 88px 35px 38px 35px;
+}
+
+.flower-item3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-item3 img {
+    padding: 50px 56px 0px 56px;
 }
