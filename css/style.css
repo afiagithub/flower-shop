@@ -64,7 +64,7 @@
     max-width: 445px;
 }
 
-.heading{
+.heading {
     color: #272727;
     font-family: Lato;
     font-size: 30px;
@@ -145,7 +145,7 @@
     margin: auto 0px;
 }
 
-.marked{
+.marked {
     color: #E55473;
 }
 
@@ -154,3 +154,57 @@
     height: 315px;
 }
 
+.media-section {
+    margin: 0px auto;
+    margin-top: 96px;
+    max-width: 1080px;
+    text-align: center;
+}
+
+.media-details {
+    max-width: 445px;
+    margin: 0px auto;
+}
+
+.media-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.media-profile img {
+    width: 256px;
+    height: 297px;
+}
+
+.media-profile img:hover{
+    border: 1px solid #E55473;
+}
+
+.newsletter {
+    max-width: 1080px;
+    margin: 0px auto;
+    margin-top: 96px;
+    background: url('../Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news-details {
+    text-align: center;
+    margin: 0px auto;
+    padding: 90px 0px;
+}
+
+.news-details input {
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 25px;
+    margin-right: 12px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
