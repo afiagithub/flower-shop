@@ -64,7 +64,7 @@
     max-width: 445px;
 }
 
-.feature-heading h3 {
+.heading{
     color: #272727;
     font-family: Lato;
     font-size: 30px;
@@ -103,3 +103,54 @@
 .flower-item3 img {
     padding: 50px 56px 0px 56px;
 }
+
+.services {
+    max-width: 1080px;
+    margin: 0px auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.supports {
+    padding: 64.5px 131px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.serve p {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+.offer-section {
+    margin-top: 96px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.offer-content {
+    padding: 75px 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-details {
+    max-width: 440px;
+    text-align: center;
+    margin: auto 0px;
+}
+
+.marked{
+    color: #E55473;
+}
+
+.offer-prize img {
+    width: 238.5px;
+    height: 315px;
+}
+
